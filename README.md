@@ -1,8 +1,8 @@
 ## Herramientas Digitales - Ejercicio Semana 7
 
-Espacio para almacenar los ejercicios de programación de la clase de Herramientas Digitales
+Ejercicios Desarrollados
 
-Ejercicio 1: Polígono
+Ejercicio 1: Polígono <A HREF="https://rodrigosanchezmendez.github.io/Herramientas-Digitales/01-Poligono/</A
 
 Ejercicio 2: Nave Espacial
 
