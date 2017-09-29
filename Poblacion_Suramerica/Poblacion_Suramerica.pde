@@ -46,12 +46,12 @@ void draw() {
   for (int row = 0; row < rowCount; row++) {
     
     // Los datos tienen la posibilidad de visualizarse de acuerdo a las siguientes opciones:
-    //El rango de columnas, empezando de 0 a 40 para distribuir en X los datos de cada ciudad y país.
+    //El rango de columnas, empezando de 0 a 41 para distribuir en X los datos de cada ciudad y país, y dejé uno adicional para que se lea correctamente la última ciudad.
     //Se modificaron los rangos de la columna entre 0 y el mayor número de habitantes (Brasil).
     //Se definió el tamaño de la gráfica.
     String dates = artData.getString(row, 0);
     float popularity = artData.getFloat(row, 1);
-    float x = map(row, 0, 40, 30, 575);
+    float x = map(row, 0, 41, 30, 575);
     float y = map(popularity, 0, 203000000, 250, 20);
 //    println(nfp(popularity, 1, 3) + " : " + nf(y, 3, 2));
 //    noLoop();
@@ -84,7 +84,7 @@ void draw() {
   for (int row = 0; row < rowCount; row += 4) {
     String dates = artData.getString(row, 0);
     float popularity = artData.getFloat(row, 1);
-    float x = map(row, 0, 40, 30, 575);
+    float x = map(row, 0, 41, 30, 575);
     float y = map(popularity, 0, 203000000, 250, 20);
     
     //Ubicación de textos inferiores (países)
